@@ -78,7 +78,7 @@
 			position: relative;
 			top: 50px;
 			left: 10px;
-			width: 40%;
+			width: 750px;
 			background-color: #232527;
 		}
 
@@ -86,4 +86,21 @@
 			top: 45px;
 			left: 5px;
 			box-shadow: 5px 10px 5px black;
+		}
+
+		@media only screen and (max-width: 767px) { /* Mobile formatting */
+			.pcbuild-div {
+				word-wrap: overflow-wrap;
+				width: 100%;
+				left: 0px;
+				top: 45px;
+			}
+
+			#three-fifty-pc {
+				left: 20px;
+			}
+	
+			.specs {
+				left: 20px;
+			}
 		}
