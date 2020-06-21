@@ -93,7 +93,9 @@
 				word-wrap: overflow-wrap;
 				width: 100%;
 				left: 0px;
+				right: 0px;
 				top: 45px;
+				align-self: center;
 			}
 
 			#three-fifty-pc {
@@ -101,6 +103,7 @@
 			}
 	
 			.specs {
-				left: 20px;
+				left: 0px;
+				padding-right: 10px;
 			}
 		}
