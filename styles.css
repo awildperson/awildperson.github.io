@@ -106,4 +106,8 @@
 				left: 0px;
 				padding-right: 10px;
 			}
+			
+			body {
+				overflow-x: hidden !important;
+			}
 		}
