@@ -81,12 +81,23 @@
 			left: 10px;
 			width: 750px;
 			background-color: #232527;
+
 		}
 
 		.pcbuild-div:hover {
 			top: 45px;
 			left: 5px;
 			box-shadow: 5px 10px 5px black;
+		}
+
+		#fivepc-box {
+			position: relative;
+			margin-top: 35px;
+		}
+
+		#five-hundred-pc {
+			position: relative;
+			left: 50px;
 		}
 
 		@media only screen and (max-width: 767px) { /* Mobile formatting */
